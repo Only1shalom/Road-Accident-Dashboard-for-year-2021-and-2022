@@ -1,47 +1,64 @@
-# Road-Accident-Dashboard-for-year-2021-and-2022
-The Road Accident Dashboard is an interactive data visualization project designed to analyze and present road accident statistics for the years 2021 and 2022. The goal of this project is to provide valuable insights into accident patterns, trends, and key risk factors enabling  transportation authorities to make informed, data-driven decisions.
+Road Accident Analysis Dashboard (2021–2022)
+🧩 Project Overview
 
-# 📊 Key Insights & Requirements
-🧭 Primary KPIs
+This project focuses on analyzing and visualizing road accident data for the years 2021 and 2022 to uncover key insights that can help improve road safety and understand accident trends. The analysis culminates in an interactive Power BI dashboard that highlights major KPIs, identifies patterns, and reveals correlations between accident factors such as severity, location, time, and vehicle type.
 
-Total casualties recorded after accidents.
+🎯 Objectives
 
-Percentage of casualties based on accident severity (fatal, serious, slight).
+The client aims to build a Road Accident Dashboard that provides actionable insights based on the following requirements:
 
-Maximum casualties categorized by type of vehicle involved.
+Primary KPIs
 
-# ⚙️ Secondary KPIs
+Total Casualties resulting from all recorded accidents.
 
-Total casualties analyzed with respect to vehicle type.
+Casualty Percentage by Accident Severity (Fatal, Serious, Slight).
 
-# 📈 Trend & Comparison Analysis
+Maximum Casualties by Vehicle Type.
 
-Monthly trend comparison between current year (2022) and previous year (2021).
+Secondary KPIs
 
-# 🚗 Casualty Analysis
+Casualty Count by Vehicle Type.
 
-Maximum casualties by road type (single carriageway, dual carriageway, etc.).
+Monthly Trend Analysis comparing casualties for the current year (2022) vs. previous year (2021).
 
-Distribution of casualties by road surface (dry, wet, icy).
+Casualty Distribution by Road Type.
 
-Correlation between casualties by area/location (urban/rural) and day/night conditions.
+Casualty Distribution by Road Surface.
 
-# STAKEHOLDERS
-Ministry of Transport
+Relationship between Casualties by Area (Urban/Rural) and Day/Night conditions.
 
-Road Transport Department
+🧹 Data Cleaning
 
-Police Force
+Converted column headers to filters for easy validation and error spotting.
 
-Emergency Services Department
+Corrected inconsistent data entries, such as renaming “Fetal” to “Fatal” in the Accident Severity column.
 
-Road Safety Corps
+Verified data integrity across all columns to ensure accurate aggregation and reporting.
 
-Transport Operators
+⚙️ Data Processing
 
-Traffic Management Agencies
+To prepare the dataset for analysis:
 
-Public
+Extracted Month from Accident Date using:
 
-Media
+=TEXT(B2,"MMM")
 
+
+Extracted Year from Accident Date using:
+
+=TEXT(B2,"YYYY")
+
+
+Added computed columns to enable time-series comparison and yearly filtering in Power BI.
+
+📊 Outcome
+
+The final Power BI Dashboard provides a comprehensive visualization of:
+
+Year-over-year casualty trends.
+
+Insights by severity, vehicle type, and road conditions.
+
+Comparative casualty distributions between day/night and urban/rural areas.
+
+This dashboard serves as a decision-support tool to enhance road safety policies and resource allocation strategies.
