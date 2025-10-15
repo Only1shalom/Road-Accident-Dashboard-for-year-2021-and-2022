@@ -27,6 +27,7 @@ The goal is to create an **Excel dashboard** that provides stakeholders with dat
 2. **Corrected typos** in the `Accident_Severity` column — e.g., renamed `"Fetal"` ➜ `"Fatal"`.  
 3. Verified and validated all columns to ensure clean, cons
 
+## 🧹 Data Visualization
 
 
 
