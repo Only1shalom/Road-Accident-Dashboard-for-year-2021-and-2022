@@ -53,12 +53,3 @@ Added computed columns to enable time-series comparison and yearly filtering in 
 
 📊 Outcome
 
-The final Power BI Dashboard provides a comprehensive visualization of:
-
-Year-over-year casualty trends.
-
-Insights by severity, vehicle type, and road conditions.
-
-Comparative casualty distributions between day/night and urban/rural areas.
-
-This dashboard serves as a decision-support tool to enhance road safety policies and resource allocation strategies.
